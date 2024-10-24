@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea, select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Containers */
+div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Notes, Tasks, and Habits Section */
+#notes-list, #tasks-list, #habits-list {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+/* Quotes Section */
+#quote-box {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#new-quote-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+}
+
+#new-quote-btn:hover {
+    background-color: #218838;
+}
